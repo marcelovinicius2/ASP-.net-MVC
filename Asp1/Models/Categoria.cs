@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
 namespace Asp1.Models
 {
     public class Categoria
@@ -11,4 +10,3 @@ namespace Asp1.Models
         public string Descricao { get; set; }
     }
 }
- 
