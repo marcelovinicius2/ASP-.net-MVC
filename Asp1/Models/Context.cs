@@ -12,7 +12,7 @@ namespace Asp1.Models
         public DbSet<Categoria> Categorias { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
          {
-            optionsBuilder.UseSqlServer(@"Server=(localbd)\mssqllocalbd;Database=Cursomvc;Integrated Security=True");
+            optionsBuilder.UseSqlServer(connectionString:@"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Asp1;Data Source=DESKTOP-PRT32IP\\SQLEXPRESS");
          }
     }
 
